@@ -1,0 +1,4 @@
+sacct --starttime 2024-07-16 --format=User,JobID,Jobname%50,partition,state,time,start,end,elapsed,MaxRss,MaxVMSize,nnodes,ncpus,nodelist
+
+
+srun -A rabl  --partition magic -w cx28 -c 256 --container-image=$(pwd)/ubuntu22_04.sqsh --container-mounts=${HOME}/prefetching:/prefetching,${HOME}:/home  --container-writable --container-remap-root --time=02:00:00 --pty bash

@@ -1,0 +1,15 @@
+[submodule "third_party/benchmark"]
+	path = third_party/benchmark
+	url = https://github.com/google/benchmark.git
+[submodule "third_party/json"]
+	path = third_party/json
+	url = https://github.com/nlohmann/json.git
+[submodule "third_party/jemalloc"]
+	path = third_party/jemalloc
+	url = https://github.com/jemalloc/jemalloc.git
+[submodule "third_party/cxxopts"]
+	path = third_party/cxxopts
+	url = https://github.com/jarro2783/cxxopts
+[submodule "third_party/tinymembench"]
+	path = third_party/tinymembench
+	url = https://github.com/tratori/tinymembench

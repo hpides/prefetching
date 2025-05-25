@@ -1,0 +1,8 @@
+ls_dispatch.ld_dispatch,ls_inef_sw_pref.data_pipe_sw_pf_dc_hit,ls_inef_sw_pref.mab_mch_cnt,ls_pref_instr_disp,ls_pref_instr_disp.prefetch_nta,ls_sw_pf_dc_fill.ls_mabresp_lcl_dram,ls_sw_pf_dc_fill.ls_mabresp_rmt_dram,l2_cache_accesses_from_dc_misses,l2_dtlb_misses,ls_mab_alloc.loads,ls_mab_alloc.dc_prefetcher,ls_inef_sw_pref.mab_mch_cnt
+
+
+l3_read_miss_latency
+
+
+/usr/lib/linux-tools/5.15.0-113-generic/perf
+apt install linux-tools-generic-hwe-24.04

@@ -1,0 +1,102 @@
+root@cx01:/prefetching/cmake-build-release-cx01# numactl --physcpubind=3 --membind=2 ./benchmark/hashmap_benchmark
+----- Measuring Uniform Accesses -----
+
+Vectorized_get_amac()
+Total time taken: 6.24226 seconds
+Throughput: 4.00496e+06 queries/second
+
+Vectorized_get_co()
+Total time taken: 5.02654 seconds
+Throughput: 4.9736e+06 queries/second
+
+Vectorized_get_gp()
+Total time taken: 5.32108 seconds
+Throughput: 4.69829e+06 queries/second
+
+Vectorized_get()
+Total time taken: 24.9028 seconds
+Throughput: 1.0039e+06 queries/second
+
+vectorized_get_coroutine_exp()
+Total time taken: 12.8919 seconds
+Throughput: 1.9392e+06 queries/second
+
+profile_vectorized_get_coroutine_exp()
+Total time taken: 8.96869 seconds
+Throughput: 2.78747e+06 queries/second
+----- Measuring Zipfian Accesses -----
+
+Vectorized_get_amac()
+Total time taken: 1.03139 seconds
+Throughput: 2.42391e+07 queries/second
+
+Vectorized_get_co()
+Total time taken: 1.6287 seconds
+Throughput: 1.53497e+07 queries/second
+
+Vectorized_get_gp()
+Total time taken: 0.6942 seconds
+Throughput: 3.60127e+07 queries/second
+
+Vectorized_get()
+Total time taken: 0.743541 seconds
+Throughput: 3.36229e+07 queries/second
+
+vectorized_get_coroutine_exp()
+Total time taken: 2.55667 seconds
+Throughput: 9.77835e+06 queries/second
+
+profile_vectorized_get_coroutine_exp()
+Total time taken: 2.50383 seconds
+Throughput: 9.98469e+06 queries/second
+root@cx01:/prefetching/cmake-build-release-cx01# numactl --physcpubind=3 --membind=1 ./benchmark/hashmap_benchmark
+----- Measuring Uniform Accesses -----
+
+Vectorized_get_amac()
+Total time taken: 4.73261 seconds
+Throughput: 5.2825e+06 queries/second
+
+Vectorized_get_co()
+Total time taken: 4.73267 seconds
+Throughput: 5.28243e+06 queries/second
+
+Vectorized_get_gp()
+Total time taken: 4.55817 seconds
+Throughput: 5.48466e+06 queries/second
+
+Vectorized_get()
+Total time taken: 14.2735 seconds
+Throughput: 1.7515e+06 queries/second
+
+vectorized_get_coroutine_exp()
+Total time taken: 12.4005 seconds
+Throughput: 2.01604e+06 queries/second
+
+profile_vectorized_get_coroutine_exp()
+Total time taken: 7.59138 seconds
+Throughput: 3.29321e+06 queries/second
+----- Measuring Zipfian Accesses -----
+
+Vectorized_get_amac()
+Total time taken: 1.05431 seconds
+Throughput: 2.37123e+07 queries/second
+
+Vectorized_get_co()
+Total time taken: 1.62325 seconds
+Throughput: 1.54012e+07 queries/second
+
+Vectorized_get_gp()
+Total time taken: 0.664125 seconds
+Throughput: 3.76435e+07 queries/second
+
+Vectorized_get()
+Total time taken: 0.717287 seconds
+Throughput: 3.48535e+07 queries/second
+
+vectorized_get_coroutine_exp()
+Total time taken: 2.54438 seconds
+Throughput: 9.82558e+06 queries/second
+
+profile_vectorized_get_coroutine_exp()
+Total time taken: 2.53789 seconds
+Throughput: 9.8507e+06 queries/second
