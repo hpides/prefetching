@@ -1,6 +1,21 @@
-## Prefetching
+## Fetch Me If You Can: Evaluating CPU Cache Prefetching and Its Reliability on High Latency Memory
 
-Repository contains (Micro-)benchmarks for evaluation of prefetching algorithms on heterogenous memory.
+This repository contains the code to our [DaMoN 2025 paper](https://hpi.de/oldsite/fileadmin/user_upload/fachgebiete/rabl/publications/2025/Mahling-DaMoN25-Prefetching.pdf).
+The repository contains (Micro-)benchmarks for evaluation of prefetching algorithms on heterogeneous memory.
+
+## Cite our work
+
+If you use the microbenchmarks or reference our findings, please cite us.
+ 
+```bibtex
+@inproceedings{mahling2025prefetching,
+  title={Fetch Me If You Can: Evaluating CPU Cache Prefetching and Its Reliability on High Latency Memory},
+  author={Mahling, Fabian and Weisgut, Marcel and Rabl, Tilmann},
+  booktitle={Proceedings of the 21th International Workshop on Data Management on New Hardware},
+  venueshort = {{DaMoN}},
+  year={2025}
+}
+```
 
 # Setup
 
