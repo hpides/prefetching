@@ -12,7 +12,6 @@ If you use the microbenchmarks or reference our findings, please cite us.
   title={Fetch Me If You Can: Evaluating CPU Cache Prefetching and Its Reliability on High Latency Memory},
   author={Mahling, Fabian and Weisgut, Marcel and Rabl, Tilmann},
   booktitle={Proceedings of the 21th International Workshop on Data Management on New Hardware},
-  venueshort = {{DaMoN}},
   year={2025}
 }
 ```
